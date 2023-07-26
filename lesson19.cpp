@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -12,6 +13,7 @@ cout<<"enter the radius please";
 cin>>r; // prompting the user to enter the radius
 float area = r*r*pi;
 cout<<"area ="<<area<<endl;
+cout <<string(100, '=') <<endl;
 
 
     return 0;
